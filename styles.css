@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-one img {
+    width: 100px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.header-one {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 20px;
+}
+
+.header-one a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header-one a:hover {
+    color: #b1b3b7;
+}
+
+.header-links {
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+    padding-right: 100px;
+    flex-wrap: wrap;
+}
+
+.header-two {
+display: flex;
+justify-content: center;
+align-items: center;
+background: #1f2937;
+height: 500px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-two img {
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 3px;
+    box-shadow: 3px 3px 6px black;
+}
+
+h1 {
+font-size: 48px;
+color:#f9faf8;
+width: 500px;
+}
+
+.header-two p {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 550px;
+    padding: 20px 10px;
+    
+}
+
+.h2-container {
+    margin: 40px;
+    min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.h2-container .sign-up-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 100px;
+    padding: 5px 20px;
+    border-radius: 7.5px;
+    border: none;
+    box-shadow: 2px 2px 4px black;
+}
+
+.h2-container .sign-up-button:hover {
+    background-color: #2b66c5;
+}
+
+.header-three {
+    background-color: #d9eeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 250px;
+    gap: 30px;
+    height: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h3-words {
+    text-align: center;
+}
+
+.h3-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.h3-list img {
+    height: 200px;
+    width: 200px;
+    border: solid 5px #3882F6;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.h3-list p {
+    padding-top: 10px;
+    width: 200px;
+text-align: center;
+}
+
+.header-four {
+    background-color: #f9faf8;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-four-words {
+    margin: 0 400px;
+    min-width: 250px;
+}
+
+.header-four h3 {
+    font-size: 30px;
+    font-weight: 5;
+    color: #1F2937;
+}
+
+.h4-ignore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.h4-ignore p {
+    padding-top: 15px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.header-five {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9eeff;
+}
+
+.header-five-content {
+    background-color: #3882F6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding: 35px 90px;
+    border-radius: 7px;
+}
+
+.header-five-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-five-words {
+    width: 550px;
+}
+
+.header-five button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    padding: 0px 30px;
+    height: 30px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.header-five button:hover {
+    background-color: #245bb4;
+    color: white;
+}
+
+.header-six {
+    display: flex;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
